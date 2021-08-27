@@ -1,8 +1,41 @@
-h1 {
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.essay{
+  padding: 3em;
+  max-width: 750px;
+  margin: 0px auto;
+  width: 100%;
+}
+
+
+
+h1 {
+  font-family: 'Helvetica', Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(71, 71, 71);
 }
 
 p {
   font-family: 'Helvetica', Arial, Helvetica, sans-serif;
+  font-size: 1em;
   color: rgb(71, 71, 71);
+  font-weight: lighter;
+  line-height: 1.5em;
+}
+
+a {
+  font-family: 'Helvetica', Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: rgb(71, 71, 71);
+  font-weight: lighter;
+  line-height: 1.5em;
+  list-style: none;
 }
